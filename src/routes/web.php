@@ -14,6 +14,6 @@ use App\Http\Controllers\TodoController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
 Route::get('/todos', [TodoController::class, 'index']);
